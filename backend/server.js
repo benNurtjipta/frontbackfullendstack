@@ -1,10 +1,12 @@
 import express from "express";
 import users from "./data/users.json" with {type: "json"}
-import todos from "./data/todos.json"with {type: "json"};
+import todos from "./data/todos.json" with {type: "json"};
+import cors from "cors"
 
 const app = express();
 const PORT = 5500;
 
+app.use(cors())
 app.use(express.json());
 
 app.post("/login", (req, res) => {

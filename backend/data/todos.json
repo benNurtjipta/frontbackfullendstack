@@ -1,14 +1,146 @@
 [
   {
-    "title": "Kochen mit Jochen",
-    "uID": "u1",
-    "text": "Müsli kochen mit Jochen",
+    "title": "Einkaufen gehen",
+    "uID": "u3",
+    "text": "Milch, Eier und Käse nicht vergessen.",
     "state": false
   },
   {
-    "title": "Oma Erna´s B-Day",
+    "title": "Sport mit Alex",
+    "uID": "u7",
+    "text": "Workout im Park um 18 Uhr.",
+    "state": false
+  },
+  {
+    "title": "Wäsche waschen",
+    "uID": "u1",
+    "text": "Buntwäsche zuerst, dann Weißes.",
+    "state": false
+  },
+  {
+    "title": "Projektmeeting",
+    "uID": "u12",
+    "text": "Zoom-Link an Team senden.",
+    "state": false
+  },
+  {
+    "title": "Katze füttern",
+    "uID": "u5",
+    "text": "Leckerli nicht vergessen.",
+    "state": false
+  },
+  {
+    "title": "Buch zurückbringen",
+    "uID": "u9",
+    "text": "Bibliothek schließt um 17 Uhr.",
+    "state": false
+  },
+  {
+    "title": "Geburtstagskarte schreiben",
+    "uID": "u14",
+    "text": "Für Tante Helga, 80 Jahre!",
+    "state": false
+  },
+  {
+    "title": "Termin beim Zahnarzt",
+    "uID": "u6",
+    "text": "Nicht auf nüchternen Magen!",
+    "state": false
+  },
+  {
+    "title": "Auto tanken",
     "uID": "u2",
-    "text": "Kukident-Torte abholen",
+    "text": "Diesel, nicht Benzin!",
+    "state": false
+  },
+  {
+    "title": "Netflix-Abo kündigen",
+    "uID": "u10",
+    "text": "Bis Ende des Monats.",
+    "state": false
+  },
+  {
+    "title": "Kinder abholen",
+    "uID": "u1",
+    "text": "15:30 Uhr am Hort.",
+    "state": false
+  },
+  {
+    "title": "Spaghetti kochen",
+    "uID": "u11",
+    "text": "Mit extra Knoblauch.",
+    "state": false
+  },
+  {
+    "title": "Brettspielabend",
+    "uID": "u13",
+    "text": "Don't forget Siedler von Catan!",
+    "state": false
+  },
+  {
+    "title": "Neuen Reisepass beantragen",
+    "uID": "u8",
+    "text": "Foto und alten Pass mitnehmen.",
+    "state": false
+  },
+  {
+    "title": "Steuererklärung starten",
+    "uID": "u15",
+    "text": "Elster öffnen und durchatmen.",
+    "state": false
+  },
+  {
+    "title": "Garten gießen",
+    "uID": "u4",
+    "text": "Am besten früh morgens.",
+    "state": false
+  },
+  {
+    "title": "Kaffee kaufen",
+    "uID": "u9",
+    "text": "Spezialmischung aus dem Feinkostladen.",
+    "state": false
+  },
+  {
+    "title": "Laufschuhe putzen",
+    "uID": "u2",
+    "text": "Vor dem nächsten Lauf.",
+    "state": false
+  },
+  {
+    "title": "Schrank aufräumen",
+    "uID": "u6",
+    "text": "Winterklamotten raus!",
+    "state": false
+  },
+  {
+    "title": "Lebenslauf aktualisieren",
+    "uID": "u3",
+    "text": "Neues Projekt hinzufügen.",
+    "state": false
+  },
+  {
+    "title": "Flohmarkt vorbereiten",
+    "uID": "u7",
+    "text": "Preise beschriften.",
+    "state": false
+  },
+  {
+    "title": "Fotos sichern",
+    "uID": "u12",
+    "text": "Auf externe Festplatte.",
+    "state": false
+  },
+  {
+    "title": "Geburtstagsgeschenk kaufen",
+    "uID": "u8",
+    "text": "Für Max – eine neue Tastatur.",
+    "state": false
+  },
+  {
+    "title": "PC reinigen",
+    "uID": "u10",
+    "text": "Druckluftspray benutzen.",
     "state": false
   },
   {
@@ -20,13 +152,85 @@
   {
     "title": "Kleber kaufen",
     "uID": "u4",
-    "text": "Die kleine Tina brauche Kleber für ein Schulprojekt auf der A1",
+    "text": "Die kleine Tina braucht Kleber für ein Schulprojekt.",
+    "state": false
+  },
+  {
+    "title": "Oma Erna´s B-Day",
+    "uID": "u2",
+    "text": "Kukident-Torte abholen.",
+    "state": false
+  },
+  {
+    "title": "Kochen mit Jochen",
+    "uID": "u1",
+    "text": "Müsli kochen mit Jochen.",
     "state": false
   },
   {
     "title": "Learning 4.0",
     "uID": "u2",
     "text": "Wecker stellen um Feierabend nicht zu verpassen!",
+    "state": false
+  },
+  {
+    "title": "Wasserfilter wechseln",
+    "uID": "u14",
+    "text": "Jeden 3. Sonntag im Monat.",
+    "state": false
+  },
+  {
+    "title": "Online-Kurs abschließen",
+    "uID": "u15",
+    "text": "Letztes Kapitel ist offen.",
+    "state": false
+  },
+  {
+    "title": "Neue Brille abholen",
+    "uID": "u5",
+    "text": "Termin um 13:00 Uhr.",
+    "state": false
+  },
+  {
+    "title": "Reifen wechseln",
+    "uID": "u13",
+    "text": "Winterreifen vor dem Frost.",
+    "state": false
+  },
+  {
+    "title": "Fahrrad reparieren",
+    "uID": "u6",
+    "text": "Kette ist gerissen.",
+    "state": false
+  },
+  {
+    "title": "Torte bestellen",
+    "uID": "u4",
+    "text": "Mit Marzipanfigur.",
+    "state": false
+  },
+  {
+    "title": "Zahnpasta kaufen",
+    "uID": "u8",
+    "text": "Die mit extra Minze.",
+    "state": false
+  },
+  {
+    "title": "Handyvertrag kündigen",
+    "uID": "u9",
+    "text": "Frist ist nächste Woche.",
+    "state": false
+  },
+  {
+    "title": "Kuchen backen",
+    "uID": "u11",
+    "text": "Zutaten checken: Eier, Butter, Mehl.",
+    "state": false
+  },
+  {
+    "title": "Glühbirnen wechseln",
+    "uID": "u3",
+    "text": "LEDs aus der Schublade holen.",
     "state": false
   }
 ]

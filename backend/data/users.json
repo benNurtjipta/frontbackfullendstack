@@ -12,5 +12,96 @@
     "password": "LoginPW123!",
     "firstname": "Lisa",
     "lastname": "Lustig"
+  },
+  {
+    "userID": "u3",
+    "username": "JoSc",
+    "password": "LoginPW123!",
+    "firstname": "Johannes",
+    "lastname": "Schmidt"
+  },
+  {
+    "userID": "u4",
+    "username": "SaMe",
+    "password": "LoginPW123!",
+    "firstname": "Sandra",
+    "lastname": "Meier"
+  },
+  {
+    "userID": "u5",
+    "username": "ThMa",
+    "password": "LoginPW123!",
+    "firstname": "Thomas",
+    "lastname": "Müller"
+  },
+  {
+    "userID": "u6",
+    "username": "AnWi",
+    "password": "LoginPW123!",
+    "firstname": "Anna",
+    "lastname": "Winter"
+  },
+  {
+    "userID": "u7",
+    "username": "PeBr",
+    "password": "LoginPW123!",
+    "firstname": "Peter",
+    "lastname": "Brandt"
+  },
+  {
+    "userID": "u8",
+    "username": "KaKr",
+    "password": "LoginPW123!",
+    "firstname": "Katrin",
+    "lastname": "Krause"
+  },
+  {
+    "userID": "u9",
+    "username": "LuNe",
+    "password": "LoginPW123!",
+    "firstname": "Lukas",
+    "lastname": "Neumann"
+  },
+  {
+    "userID": "u10",
+    "username": "MoHe",
+    "password": "LoginPW123!",
+    "firstname": "Monika",
+    "lastname": "Heinrich"
+  },
+  {
+    "userID": "u11",
+    "username": "BeSc",
+    "password": "LoginPW123!",
+    "firstname": "Ben",
+    "lastname": "Schneider"
+  },
+  {
+    "userID": "u12",
+    "username": "EmWe",
+    "password": "LoginPW123!",
+    "firstname": "Emma",
+    "lastname": "Weber"
+  },
+  {
+    "userID": "u13",
+    "username": "DaFr",
+    "password": "LoginPW123!",
+    "firstname": "Daniel",
+    "lastname": "Franke"
+  },
+  {
+    "userID": "u14",
+    "username": "JeVo",
+    "password": "LoginPW123!",
+    "firstname": "Jessica",
+    "lastname": "Vogel"
+  },
+  {
+    "userID": "u15",
+    "username": "NiFi",
+    "password": "LoginPW123!",
+    "firstname": "Niklas",
+    "lastname": "Fischer"
   }
 ]

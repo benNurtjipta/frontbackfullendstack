@@ -8,21 +8,28 @@ import { useState } from "react";
 
 function App() {
   const [currentUser, setCurrentUser] = useState(null);
+  const [userTodos, setUserTodos] = useState([]);
 
   return (
     <>
-      <Header currentUser={currentUser} setCurrentUser={setCurrentUser} />
-      <Routes>
-        <Route path="/" element={<Welcome />} />
-        <Route
-          path="/dashboard"
-          element={
-            <PrivateRoute currentUser={currentUser}>
-              <Dashboard currentUser={currentUser} />
-            </PrivateRoute>
-          }
-        />
-      </Routes>
+      <Header
+        currentUser={currentUser}
+        setCurrentUser={setCurrentUser}
+        setUserTodos={setUserTodos}
+      />
+      <section className="main-content">
+        <Routes>
+          <Route path="/" element={<Welcome />} />
+          <Route
+            path="/dashboard"
+            element={
+              <PrivateRoute currentUser={currentUser}>
+                <Dashboard currentUser={currentUser} userTodos={userTodos} />
+              </PrivateRoute>
+            }
+          />
+        </Routes>
+      </section>
     </>
   );
 }
