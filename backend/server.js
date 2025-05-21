@@ -34,7 +34,7 @@ app.post("/addtodo", (req, res) => {
     JSON.stringify(todos, null, 2),
     "utf-8"
   );
-  res.json({ message: "läuft" });
+  res.json({ message: "Todo added" });
 });
 
 app.patch("/editstate", (req, res) => {
@@ -47,7 +47,7 @@ app.patch("/editstate", (req, res) => {
     JSON.stringify(todos, null, 2),
     "utf-8"
   );
-  res.json({ message: "läuft" });
+  res.json(todo);
 });
 
 app.delete("/deletetodo", (req, res) => {

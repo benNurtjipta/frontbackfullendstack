@@ -5,6 +5,7 @@ import Welcome from "./components/Welcome";
 import PrivateRoute from "./components/PrivateRoute";
 import Dashboard from "./components/Dashboard";
 import { useState } from "react";
+import NewToDo from "./components/NewToDo";
 
 function App() {
   const [currentUser, setCurrentUser] = useState(null);
@@ -24,7 +25,23 @@ function App() {
             path="/dashboard"
             element={
               <PrivateRoute currentUser={currentUser}>
-                <Dashboard currentUser={currentUser} userTodos={userTodos} />
+                <Dashboard
+                  currentUser={currentUser}
+                  userTodos={userTodos}
+                  setUserTodos={setUserTodos}
+                />
+              </PrivateRoute>
+            }
+          />
+          <Route
+            path="/newtodo"
+            element={
+              <PrivateRoute currentUser={currentUser}>
+                <NewToDo
+                  currentUser={currentUser}
+                  userTodos={userTodos}
+                  setUserTodos={setUserTodos}
+                />
               </PrivateRoute>
             }
           />

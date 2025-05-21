@@ -57,16 +57,16 @@ const Header = ({ currentUser, setCurrentUser, setUserTodos }) => {
   return (
     <div className="header-wrapper">
       <NavLink to="/">
-        <h2>WHEREMYHEADAT?</h2>
+        <h2>whereMyHeadAt?</h2>
       </NavLink>
       <div className="log-wrapper">
         <button onClick={handleLogin}>
           {!currentUser ? "LOGIN" : "LOGOUT"}
         </button>
         {isLoggedIn ? (
-          <form onSubmit={handleSubmit}>
-            <div className="input-wrapper">
-              <label htmlFor="username">Username:</label>
+          <form className="login-form" onSubmit={handleSubmit}>
+            <div>
+              <label htmlFor="username">username</label>
               <input
                 type="text"
                 id="username"
@@ -76,8 +76,8 @@ const Header = ({ currentUser, setCurrentUser, setUserTodos }) => {
                 required
               />
             </div>
-            <div className="input-wrapper">
-              <label htmlFor="password">Password:</label>
+            <div>
+              <label htmlFor="password">password</label>
               <input
                 type="password"
                 id="password"

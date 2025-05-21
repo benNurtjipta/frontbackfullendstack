@@ -1,8 +1,8 @@
 [
   {
     "userID": "u1",
-    "username": "MaMu",
-    "password": "LoginPW123!",
+    "username": "test",
+    "password": "test",
     "firstname": "Max",
     "lastname": "Mustermann"
   },

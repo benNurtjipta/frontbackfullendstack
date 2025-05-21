@@ -14,13 +14,6 @@
     "state": false
   },
   {
-    "id": 3,
-    "title": "Wäsche waschen",
-    "uID": "u1",
-    "text": "Buntwäsche zuerst, dann Weißes.",
-    "state": false
-  },
-  {
     "id": 4,
     "title": "Projektmeeting",
     "uID": "u12",
@@ -67,13 +60,6 @@
     "title": "Netflix-Abo kündigen",
     "uID": "u10",
     "text": "Bis Ende des Monats.",
-    "state": false
-  },
-  {
-    "id": 11,
-    "title": "Kinder abholen",
-    "uID": "u1",
-    "text": "15:30 Uhr am Hort.",
     "state": false
   },
   {
@@ -277,6 +263,13 @@
     "title": "Coden bis der Arzt kommt",
     "uID": "u9",
     "text": "Merge and Pray",
+    "state": false
+  },
+  {
+    "id": 39,
+    "title": "Saufen",
+    "uID": "u1",
+    "text": "Ordentlich die Rüstung lackieren!!!",
     "state": false
   }
 ]
